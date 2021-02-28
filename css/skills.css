@@ -1,0 +1,27 @@
+main.container{
+    color: var(--primary-color);
+    margin-top: 10vh;
+    max-width: 500px;
+}
+.skills {
+    margin-top: 30px
+}
+.skill {
+    margin-top: 30px;
+}
+.skill-detail{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.skill-outer-bar{
+    margin-top: 5px;
+    height: 15px;
+    background-color: darkgray;
+}
+.skill-inner-bar{
+    background-color: var(--secondary-color);
+    height: 100%;
+   
+}
