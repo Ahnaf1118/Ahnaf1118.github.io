@@ -1,0 +1,42 @@
+main.container{
+    color: var(--primary-color);
+    margin-top: 10vh;
+    max-width: 500px;
+}
+.underlined-heading-content h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.underlined-heading .line{
+    margin: 0 auto;
+    width: 15%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--primary-color);
+
+}
+.skills {
+    margin-top: 30px
+}
+.skill {
+    margin-top: 30px;
+}
+.skill-detail{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.skill-outer-bar{
+    margin-top: 5px;
+    height: 15px;
+    background-color: darkgray;
+}
+.skill-inner-bar{
+    background-color: var(--secondary-color);
+    height: 100%;
+   
+}
